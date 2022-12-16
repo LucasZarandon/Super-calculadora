@@ -1,0 +1,51 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+p{
+    display: inline;
+}
+
+h2{
+    background-color: white;
+    text-align: center;
+    border: 2px solid black;
+}
+
+div{
+    display: flex;
+    gap: 20px;
+    width: 250px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+button{
+   width: 100px; 
+}
+
+.red, .suma{
+    background-color: red;
+}
+
+.blue, .division{
+    background-color: blue;
+}
+
+.green, .resta{
+    background-color: green;
+}
+
+.yellow, .multiplicacion{
+    background-color: yellow;
+}
+
+.reset{
+    background-color: black;
+    color: white;
+    border-color: white;
+}
